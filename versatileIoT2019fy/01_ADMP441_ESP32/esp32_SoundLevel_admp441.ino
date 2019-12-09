@@ -99,8 +99,18 @@ float measureLevel()
   for (int i = 0; i < N_LEN_BUF_2BYTE ; i++) {
      ftmpsum += (float)strmData[i]*(float)strmData[i] - fTmpMeanSq;
   }
+  
+  float results=0;
+  
   //sq.root mean
-  return( sqrt(ftmpsum/(float)N_LEN_BUF_2BYTE ));
+  float fRms = sqrt(ftmpsum/(float)N_LEN_BUF_2BYTE);
+  results=fRms;
+  
+  // float y = 1.4374*fRms - 44.5015;
+  // float z = 20*log10(y);
+  // results=z;
+
+  return( results );
 }
 
 void setup() {
