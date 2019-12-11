@@ -1,4 +1,4 @@
-#define PIN_READ 25
+#define PIN_READ 33
 
 void setup() {
   Serial.begin(115200);
