@@ -1,4 +1,4 @@
-#define PIN_READ 25
+#define PIN_READ 33
 #define FACT_IIR_ALPHA ((float)0.9)
 #define FACT_IIR_BETA ((float)1-FACT_IIR_ALPHA)
 
