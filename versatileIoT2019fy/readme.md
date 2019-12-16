@@ -9,7 +9,7 @@ IoTなど先進的な情報通信技術の導入は、人手不足の問題解�
 
 ## IoT関連の研修について
 
-<img src="IoT" width="200">
+<img src="./IoTLectures.png" width="200">
 
 
 ## 時間割
