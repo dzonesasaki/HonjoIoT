@@ -1,5 +1,5 @@
 
-<Div Align="right">  IoT多種多様開発研修 </Div>
+<Div Align="center"> # IoT多種多様開発研修 </Div>
 
 <Div Align="right"> 2020.2/25,25 </Div>
 
